@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from model.Layers import Encoder, Decoder
+from GCN_TSP.network.Layers import Encoder, Decoder
 
 
 class Transformer(nn.Module):
